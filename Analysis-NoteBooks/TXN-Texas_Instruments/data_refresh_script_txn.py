@@ -40,7 +40,7 @@ with open('data_refresh_audit_log_txn.text', 'a') as file:
     file.write('\n' + 'Data_Debt_Fy-' + ticker.upper() + ',Data Dump,' + str(today) + ',eol')
 
 # Owner Analysis
-owner_df = fy_df.analysis_fy_debt
+owner_df = fy_df.analysis_fy_owner
 owner_df.to_csv('Data_Owner_Fy-' + ticker.upper() + '.csv')
 
 with open('data_refresh_audit_log_txn.text', 'a') as file:
