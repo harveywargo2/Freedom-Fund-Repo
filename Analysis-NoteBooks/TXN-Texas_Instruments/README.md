@@ -7,3 +7,14 @@
 |:----------|:-----------|:-----------|:---------|
 | 2.9%      | 3.2%       | 3.5%       | Oct-2024 |
 
+
+# Analysis - Growth
+
+
+# Analysis - Cash
+- High Margins 
+- Stable & Consistent
+
+# Analysis - Cost
+- Stable Costs
+- CAPEX has some fluctuations
