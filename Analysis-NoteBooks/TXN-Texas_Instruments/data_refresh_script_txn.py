@@ -10,6 +10,7 @@ ticker = 'txn'
 today = datetime.date.today()
 div_df = gf.DivYieldAnalysis(token=gt, ticker=ticker)
 fy_df = gf.AnnualFinAnalysis(token=gt, ticker=ticker)
+div_pay = gf.DividendHistory(token=gt, ticker=ticker)
 
 # Dividend Yield Analysis
 dya_df = div_df.div_yield_analysis_cy
@@ -59,3 +60,11 @@ ps_df.to_csv('Data_Per_Share_Fy-' + ticker.upper() + '.csv')
 
 with open('data_refresh_audit_log_txn.text', 'a') as file:
     file.write('\n' + 'Data_Per_Share_Fy-' + ticker.upper() + ',Data Dump,' + str(today) + ',eol')
+
+
+# Dividends Payouts
+divpay_df = div_pay.div_df()
+divpay_df.to_csv('Data_Dividends_Pay_Fy-' + ticker.upper() + '.csv')
+
+with open('data_refresh_audit_log_txn.text', 'a') as file:
+    file.write('\n' + 'Data_Dividend_Pay_Fy-' + ticker.upper() + ',Data Dump,' + str(today) + ',eol')
