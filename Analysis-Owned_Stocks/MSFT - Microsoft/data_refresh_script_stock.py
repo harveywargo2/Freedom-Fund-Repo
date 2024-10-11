@@ -6,9 +6,9 @@ import datetime
 
 load_dotenv()
 gt = os.getenv('guru_token')
-ticker = ''  # Input Ticker
+ticker = 'MSFT'  # Input Ticker
 today = datetime.date.today()
-logfile = 'data_refresh_audit_log_ticker.text'   # Input Ticker
+logfile = 'data_refresh_audit_log_msft.text'   # Input Ticker
 div_df = gf.DivYieldAnalysis(token=gt, ticker=ticker)
 fy_df = gf.AnnualFinAnalysis(token=gt, ticker=ticker)
 div_pay = gf.DividendHistory(token=gt, ticker=ticker)
