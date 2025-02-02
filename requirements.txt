@@ -1,0 +1,5 @@
+pandas
+jupyter
+plotly
+datetime
+python-dotenv
