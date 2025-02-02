@@ -3,3 +3,4 @@ jupyter
 plotly
 datetime
 python-dotenv
+h2w-aesoppy
