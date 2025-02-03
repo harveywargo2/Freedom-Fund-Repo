@@ -58,9 +58,9 @@ We sell our products into six end markets:
 
 # Record
 ## Lots
-| cagr | spread  | date   |
-|:-----|:--------|:-------|
-| 12%  | 10%-14% | 2-2025 |
+| cagr | spread | date   |
+|:-----|:-------|:-------|
+| 10%  | 7%-15% | 2-2025 |
 
 ---
 

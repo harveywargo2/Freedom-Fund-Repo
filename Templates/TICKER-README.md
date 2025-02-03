@@ -31,9 +31,12 @@
 
 
 ---
+
 # Record
 ## Lots
-
+| cagr | spread | date |
+|:-----|:-------|:-----|
+|      |        |      |
 ---
 
 # Notes 
