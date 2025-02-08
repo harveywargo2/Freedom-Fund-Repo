@@ -10,7 +10,7 @@
 
 ---
 
-## Business 
+# Business 
 - Analog
   - Power
   - Signal Chain
@@ -30,7 +30,6 @@ We sell our products into six end markets:
 ---
 
 # Intrinsic Value Assumptions
-
 ## Dividend Yield Theory
 | pivot | 10%  | 20%  | growth       | coverage       | spread    | date   |
 |:------|:-----|:-----|:-------------|:---------------|:----------|:-------|
