@@ -46,8 +46,6 @@ Holdings
 
 # Record
 ## Lots
-# Record
-## Lots
 | cagr | spread  | date   |
 |:-----|:--------|:-------|
 | 22%  | 14%-25% | 2-2025 |
