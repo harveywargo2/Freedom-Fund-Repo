@@ -2,7 +2,10 @@
 
 >- Fiscal Year End: Dec  
 >- 10K Date:  Mar 
->- Sector: Transportation 
+>- Sector: 
+>  - Logistics
+>  - Shipping
+>  - Transportation
 >- Industry: Industrials
 >- Large Cap: Yes 
 >- S&P 500: Yes 
@@ -45,9 +48,9 @@
 
 # Record
 ## Lots
-| cagr | spread     | date   |
-|:-----|:-----------|:-------|
-| 8%   | 6.5% - 10% | 2-2025 |
+| cagr | spread    | date   |
+|:-----|:----------|:-------|
+| 15%  | 14% - 18% | 2-2025 |
 
 ---
 
