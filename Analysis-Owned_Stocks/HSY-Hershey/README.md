@@ -4,14 +4,20 @@
 >- 10K Date:  Feb-Mar 
 >- Sector:  
 >  - Snacks
->  - Chocolate
+>  - Confectionary
 >- Industry: Consumer Defensive
->- Large Cap: 
->- S&P 500: 
+>- Large Cap: Yes
+>- S&P 500: Yes
 
 ---
 
 # Business
+- https://investors.thehersheycompany.com/en_us/home/reports-and-filings/annual-reports.html
+
+## Overview
+- North America Confectionary
+- North America Salty Snacks
+- International
 
 ---
 
