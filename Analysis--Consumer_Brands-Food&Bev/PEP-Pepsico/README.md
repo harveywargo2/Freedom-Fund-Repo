@@ -1,4 +1,4 @@
-# TICKER - Company
+# PEP - Pepsico 
 
 ## Investor Relations Page
 - 
@@ -11,8 +11,8 @@
 - Sector: 
 - Business Units
   - 
-- Large Cap: 
-- S&P 500:
+- Large Cap: Yes
+- S&P 500: Yes
 
 ---
 
