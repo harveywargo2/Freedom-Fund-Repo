@@ -1,6 +1,6 @@
 # Personal Testing Or Directories to not Push to git
 test/**
-dumps/**
+data/**
 
 
 # Environment Variables via Dot-Env Loads
