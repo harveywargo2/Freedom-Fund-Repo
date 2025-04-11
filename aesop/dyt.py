@@ -83,3 +83,66 @@ class DividendYieldTheory:
 
         return dyt_df3
 
+
+
+
+class DytFwdProjections:
+
+    def __init__(self, div_start_year=date.today().year, div_growth_rate=.04, projection_yrs=10, buy_price=0,
+                 pivot=.03, div_start=0):
+        self.div_start_year = div_start_year
+        self.div_growth_rate = div_growth_rate
+        self.projection_yrs = projection_yrs
+        self.buy_price = buy_price
+        self.pivot = pivot
+        self.div_start = div_start
+        self.current_year = date.today().year
+        self.proj_df = self._proj_df()
+
+
+    def _proj_df(self):
+        start = self.div_start_year
+        proj_yrs = self.projection_yrs
+        div_amount = self.div_start
+        div_growth_rate = self.div_growth_rate
+        pivot = self.pivot
+        buy_price = self.buy_price
+
+
+        date_list = []
+        div_list = []
+
+
+        for index in range(proj_yrs):
+            year = start + index
+            date_list.append(year)
+
+        for index in range(proj_yrs):
+            div_list.append(div_amount)
+            div_amount = round((div_amount * div_growth_rate) + div_amount, 2)
+
+
+        proj_df = pd.DataFrame(div_list, index=date_list, columns=['dividend'])
+        proj_df['ivp'] = round(proj_df['dividend'] / pivot, 2)
+        proj_df['yoc'] = round((proj_df['dividend'] / buy_price) * 100, 2)
+
+        tot_div_calc = div_list
+        tot_div_calc[0] = 0
+        tot_div_list = []
+        tot_amt = 0
+
+        for item in tot_div_calc:
+            tot_amt += item
+            tot_div_list.append(tot_amt)
+
+
+        proj_df['total_div'] = tot_div_list
+        proj_df['total_div'] = proj_df['total_div'].round(2)
+
+        proj_df['cagr'] = pow((proj_df['ivp'] + proj_df['total_div']) / buy_price, 1 / (proj_df.index - start)) - 1
+        proj_df['cagr'] = round(proj_df['cagr'] * 100, 2)
+
+        proj_df.drop(2025, inplace=True)
+
+        return proj_df
+
