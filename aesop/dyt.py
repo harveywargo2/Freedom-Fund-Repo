@@ -88,15 +88,16 @@ class DividendYieldTheory:
 
 class DytFwdProjections:
 
-    def __init__(self, div_start_year=date.today().year, div_growth_rate=.04, projection_yrs=10, buy_price=0,
+    def __init__(self, div_start_year=date.today().year, div_growth_rate=.04, projection_yrs=10, buy_yield=0,
                  pivot=.03, div_start=0):
         self.div_start_year = div_start_year
         self.div_growth_rate = div_growth_rate
         self.projection_yrs = projection_yrs
-        self.buy_price = buy_price
+        self.buy_yield = buy_yield
         self.pivot = pivot
         self.div_start = div_start
         self.current_year = date.today().year
+        self.buy_price = round(self.div_start/self.buy_yield, 2)
         self.proj_df = self._proj_df()
 
 
