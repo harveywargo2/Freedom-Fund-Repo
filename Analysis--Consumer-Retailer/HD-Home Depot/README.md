@@ -33,4 +33,4 @@
 ---
 
 ## Fair Value
-- 2023-03: Div[2.5%-2.7%] @ 8%Growth = 10% CAGR & 5% YOC in 10
+- 2025-04: Div[2.5%-2.7%] @ 8%Growth = 10% CAGR & 5% YOC in 10
