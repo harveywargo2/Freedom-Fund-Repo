@@ -60,5 +60,6 @@ Notable Brands
 - Dividend Payouts Since 1973 
 
 ---
-
+## Fair Value
+- 2025-04: Div[3.3%-3.7%] @ 6%Growth = 10% CAGR & 5% YOC in 6
 
