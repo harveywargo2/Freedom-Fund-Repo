@@ -1,4 +1,4 @@
-# HD Home Depot
+# HD - Home Depot
 
 ## Investor Relations Page
 - https://ir.homedepot.com/
