@@ -36,4 +36,5 @@
 
 ---
 
-
+## Fair Value
+- 2025-04: Div[4%-4.5%] @ 4%Growth = 10% CAGR & 5% YOC in 5
