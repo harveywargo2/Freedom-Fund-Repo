@@ -31,6 +31,6 @@
 
 ---
 
-## Fair Value
+## Analysis Notes
 - 2025-04: Div[2.1%-2.5%] @ 6%Growth = 10% CAGR & 5% YOC in 10+
 
