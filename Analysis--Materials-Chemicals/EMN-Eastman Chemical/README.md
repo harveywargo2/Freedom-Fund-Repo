@@ -35,4 +35,4 @@
 ---
 
 ## Analysis Notes
-- 2025-04: Div[3.5%-4%] @ 4%Growth = 10% CAGR & 5% YOC in 3
+- 2025-04: Div[3.5%-4%] @ 4% DivGro
