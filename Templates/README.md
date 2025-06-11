@@ -32,4 +32,4 @@
 ---
 
 ## Analysis Notes
-- 2025-04: Div[3.0%-3.5%] @ 6% DivGro
+- 2025-04: Div[0%-0%] @ 0% DivGro
